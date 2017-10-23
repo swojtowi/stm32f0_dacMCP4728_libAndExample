@@ -6,7 +6,8 @@ This README would normally document whatever steps are necessary to get your app
 
 This repository shows how to use STM32F0 to communicate with DAC MCP4728 and UART.
 Library created for all commands of DAC MCP4728.
-Possible I2C hardware or software usage.
+Possible I2C hardware or software usage (define in "i2c.h").
+User can define amount of MCP4728 devices on I2C bus (in "mcp4728.h").
 
 ### How do I get set up? ###
 
